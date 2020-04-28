@@ -10,8 +10,8 @@ collections:
     label: post
     folder: post
     create: true
-    slug: { { slug } }
-    flields:
+    slug: '{ { slug } }'
+    fields:
       - { label: Title, name: title, widget: string }
       - { label: Date, name: date, widget: date }
       - { label: Content, name: content, widget: markdown }
