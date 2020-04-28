@@ -1,22 +1,48 @@
 ---
-title: "How to install "
+title: How to code
 date: 2020-04-28T22:27:50.095Z
-content: >-
-  animate svg maybe not the simple things to but visual it can communicate a
-  lot.
+content: "There are many different ways to style code with GitHub's markdown. If
+  you have inline code blocks, wrap them in backticks: `var example = true`.  If
+  you've got a longer block of code, you can indent with four spaces:\r
 
+  \r
 
-  so that why in this post were going to see how to use some tricks to animate svgs using just CSS 
+  \    if (isAwesome){\r
 
+  \      return true\r
 
-  `path {`
+  \    }\r
 
+  \r
 
-  `d:path(1201515165)`
+  GitHub also supports something called code fencing, which allows for
+  multiple lines without indentation:\r
 
+  \r
 
-  `}`
+  ```\r
 
+  if (isAwesome){\r
 
-  and this is how we can do that.
+  \  return true\r
+
+  }\r
+
+  ```\r
+
+  \r
+
+  And if you'd like to use syntax highlighting, include the language:\r
+
+  \r
+
+  ```javascript\r
+
+  if (isAwesome){\r
+
+  \  return true\r
+
+  }\r
+
+  ```"
 ---
