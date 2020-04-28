@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: iamhmza/gridsome-jamstack
+
+media_folder: 'static/uploads'
+public_folder: '/ulpoads'
+
+collections:
+  - name: post
+    label: post
+    folder: post
+    create: true
+    slug: { { slug } }
+    flields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: date }
+      - { label: Content, name: content, widget: markdown }
