@@ -1,11 +1,10 @@
 <template>
   <Layout>
     <article>
-      <h2 class="text-3xl font-bold capitalize mb-4">{{ $page.post.title }}</h2>
-      <!-- <h3>sub title</h3>
-      <span>jan 12, 2023</span>-->
+      <h2 class="text-3xl font-bold capitalize">{{ $page.post.title }}</h2>
+      <span class="text-gray-600">{{ $page.post.date }}</span>
 
-      <main v-html="$page.post.content"></main>
+      <main class="mt-6" v-html="$page.post.content"></main>
     </article>
   </Layout>
 </template>
@@ -15,7 +14,7 @@ query($id: ID!){
   post(id: $id) {
     title
     content
-    date
+    date(format: "MMMM DD, YYYY")
   }
   
 }

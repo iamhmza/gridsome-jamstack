@@ -8,7 +8,7 @@ public_folder: '/ulpoads'
 collections:
   - name: post
     label: post
-    folder: post
+    folder: 'content/blog'
     create: true
     slug: '{ { slug } }'
     fields:
