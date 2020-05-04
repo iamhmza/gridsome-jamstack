@@ -20,6 +20,21 @@ query($id: ID!){
 }
 </page-query>
 
+
+<script>
+export default {
+  metaInfo() {
+    return {
+      title: `${this.$page.post.title}`
+    };
+  },
+  mounted() {
+    console.log(this);
+  }
+};
+</script>
+
+
 <style>
 article {
   padding: 2rem 0;

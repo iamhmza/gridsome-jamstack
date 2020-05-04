@@ -33,7 +33,7 @@
 <script>
 export default {
   metaInfo: {
-    title: `${this.title} | Blog`
+    title: 'Simple blog'
   }
 };
 </script>
