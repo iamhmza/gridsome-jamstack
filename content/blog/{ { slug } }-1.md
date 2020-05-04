@@ -1,5 +1,8 @@
 ---
 title: How to code
+meta_description: simple article form trying and working with meta tags in vue
+  app powered by gridsome a static site generator
+author: hamza ouijane
 date: 2020-04-28T22:27:50.095Z
 content: "There are many different ways to style code with GitHub's markdown. If
   you have inline code blocks, wrap them in backticks: `var example = true`.  If
