@@ -1,11 +1,13 @@
 <template>
   <Layout>
-    <article>
-      <h2 class="text-3xl font-bold capitalize">{{ $page.post.title }}</h2>
-      <span class="text-gray-600">{{ $page.post.date }}</span>
+    <div class="w-full px-4 lg:px-0 mx-auto max-w-screen-lg">
+      <article class="py-32">
+        <span class="text-gray-600 uppercase mb-0">{{ $page.post.date }}</span>
+        <h2 class="text-3xl font-bold capitalize mt-0">{{ $page.post.title }}</h2>
 
-      <main class="mt-6" v-html="$page.post.content"></main>
-    </article>
+        <main class="mt-6" v-html="$page.post.content"></main>
+      </article>
+    </div>
   </Layout>
 </template>
 
