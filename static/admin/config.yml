@@ -17,3 +17,12 @@ collections:
       - { label: Author, name: author, widget: string }
       - { label: Date, name: date, widget: date }
       - { label: Content, name: content, widget: markdown }
+  - name: code
+    label: codeTemplate
+    folder: 'content/code'
+    create: true
+    slug: '{ { slug } }'
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: date }
+      - { label: Code, name: code, widget: code }
